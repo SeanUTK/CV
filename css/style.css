@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap');
+
+* {
+    margin: 0;
+    
+}
+
+body {
+    background-color: #eef2e6;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: 'Sacramento', cursive;
+    font-size: 140px;
+    
+}
+
+h2, .intro {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    font-weight: 400;
+    color: #1c6758;
+}
+
+.intro {
+    font-size: 1.8rem;
+    color: #d6cda4;
+}
+
+p {
+    width: 50%;
+    text-align: center;
+    line-height: 2;
+}
+
+hr {
+    width: 6%;
+    border: none;
+    margin: 50px auto;
+    border-top: 10px dotted #1c6758;
+}
+
+/* header section starts */
+
+.top-header {
+    background-color: #1c6758;
+    color: #d6cda4;
+}
+
+nav ul {
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-items {
+    display: flex;
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+nav img {
+    width: 80px;
+}
+
+li > a {
+    text-decoration: none;
+    color: #d6cda4;
+    margin-left: 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.pro {
+    text-decoration: underline;
+}
+
+.left-cloud {
+    position: relative;
+    left: 70%;
+}
+
+.right-cloud {
+    position: absolute;
+    right: 70%;
+}
+
+/* about section starts */
+
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about img {
+    width: 20%;
+    margin: 100px 0 50px;
+}
+
+#skills {
+    display: flex;
+    flex-direction: column;
+}
